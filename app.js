@@ -16,6 +16,10 @@ let initialColors;
 //     }
 //     return hash;
 // }
+function genareteHex() {
+    const hexColor = chroma.random();
+    return hexColor;
+}
 
 //
 function randomColors() {
