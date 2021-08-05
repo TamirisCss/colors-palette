@@ -269,7 +269,7 @@ function savePalette(e) {
     const palette = document.createElement("div");
     palette.classList.add("custom-palette");
     const title = document.createElement("h4");
-    title.innerText - paletteObj.name;
+    title.innerText = paletteObj.name;
     const preview = document.createElement("div");
     preview.classList.add("small-preview");
     paletteObj.colors.forEach(smallColor => {
