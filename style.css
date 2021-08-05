@@ -34,6 +34,14 @@ svg {
     position: relative;
     overflow: hidden;
 }
+@media (max-width: 800px) {
+    .colors {
+        flex-wrap: wrap;
+    }
+    .color {
+        flex: 1 1 15rem;
+    }
+}
 
 .color h2 {
     font-size: 2rem;
