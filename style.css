@@ -80,7 +80,8 @@ svg {
 
 .sliders button,
 .close-save,
-.library-save {
+.library-save,
+.close-library {
     position: absolute;
     top: 0;
     right: 0;
